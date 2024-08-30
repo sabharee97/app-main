@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    position: relative;
 }
 
 .container {
@@ -97,4 +98,15 @@ h1 {
 
 .button-group a.open-new:hover {
     background-color: #555555;  /* Slightly lighter on hover */
+}
+
+/* Footer text styling */
+.footer-text {
+    position: fixed;
+    bottom: 10px;  /* Adjusted to be at the bottom of the page */
+    right: 10px;   /* Adjusted to be at the right of the page */
+    font-size: 0.75rem;  /* Small text size */
+    color: #888888;  /* Subtle gray color */
+    font-style: italic;
+    opacity: 0.7;
 }
